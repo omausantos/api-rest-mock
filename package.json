@@ -9,7 +9,7 @@
     "build": "rimraf public && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add public",
-    "vercel-build": "tsx"
+    "vercel-build": "tsc"
   },
   "husky": {
     "hooks": {
