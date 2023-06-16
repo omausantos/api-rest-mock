@@ -9,7 +9,7 @@
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
-    "vercel-build": "hello"
+    "vercel-build": "rimraf dist && tsc"
   },
   "husky": {
     "hooks": {
