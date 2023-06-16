@@ -9,16 +9,7 @@
     "build": "rimraf public && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add public",
-    "vercel-build": "tsc"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": [
-        "ts.check",
-        "build",
-        "add-build"
-      ]
-    }
+    "vercel-build": "npx prisma migrate deploy"
   },
   "repository": {
     "type": "git",
