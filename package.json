@@ -4,11 +4,7 @@
   "description": "",
   "main": "public/index.js",
   "scripts": {
-    "start:dev": "nodemon",
-    "start": "nodemon src/index.ts",
-    "build": "rimraf public && tsc",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add public"
+    "start:dev": "nodemon"
   },
   "repository": {
     "type": "git",
